@@ -1,0 +1,111 @@
+/* !code by Silent_Coder */
+*{
+ border: 0;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: cursive
+
+}
+
+.div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  
+}
+h2{
+  background-color: rgba(255, 255, 255, 0.445);
+  padding: 8px 24px;
+  border-radius: 12px;
+}
+#div1{
+  background-image: url("../images/bottles.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  /* height: 150vh; */
+}
+#div2{
+  background-color: rgb(255, 255, 255);
+  height: 30%;
+}
+#div3{
+background-image: url("../images/wrecked_plane.jpg");
+background-size: cover;
+
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+
+}
+
+#div4{
+  background-color: rgb(255, 255, 255);
+  height: 30%; }
+.open_btn{
+  background-color: rgb(250, 71, 0);
+  color: #fff;
+  padding: 8px 18px;
+  /* padding: 0px 10px 0px 3px; */
+  border: 1px solid #000;
+  margin: 20px;
+  float: right;
+  transition: all .5s;
+}
+.open_btn:hover{
+  background-color: rgb(235, 137, 137);
+  border: 5px solid rgb(78, 6, 245);
+  cursor: pointer;
+}
+.modalMain{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+.modal_contents{
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  width: 70%;
+  /* height: 100px; */
+  padding: 30px;
+  box-shadow: 0px 10px 10px 0.5px #0000007e,0px 10px 10px 0.5px #0000007e;
+  
+}
+.closeBtn{
+  float: right;
+  color: #ccc;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+.closeBtn:hover,.closeBtn:focus{
+  color: #000;
+}
+#nav{
+  background-color: transparent;
+  
+}
+#profile{
+  padding: 8px 18px;
+  height: 60px;
+  margin: 10px;
+  float: left;
+  
+}
+#profile img {
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-size: cover;
+}
+
